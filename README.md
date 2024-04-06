@@ -1,3 +1,4 @@
+%%html
 <style>
     background-color: #FFFFFF;
 </style>
