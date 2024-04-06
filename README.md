@@ -1,8 +1,9 @@
 %%html
 <style>
-    background-color: #FFFFFF;
+    .white{background-color: #FFFFFF;}
 </style>
 
+<div class="white">
 # Word Counting using High Performace Computing
 To parallelize the problem of counting the number of words in a text, the OpenMP Application Program Interface
 is used to direct <mark>multi-threaded, shared memory parallelism</mark>. <br><br>
@@ -15,3 +16,5 @@ wordlist of sizes ***"500,000", "1,000,000", "5,000,000", "10,000,000" and "200,
 
 First, the number of words is counted serially and then the *OpenMP pragma* is used to count the number of words parallely.
 The computing units starts from 
+
+</div>
