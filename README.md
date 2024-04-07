@@ -4,7 +4,7 @@
 This project aims to parallelize the process of counting words in a text file using [OpenMP](https://en.wikipedia.org/wiki/OpenMP) for ***multi-threaded, shared memory parallelism***. It employs a dataset obtained from the **Massachusetts Institute of Technology (MIT)** containing 10,000 words, which is duplicated to create word lists of various sizes for testing.
 
 ## Dataset
-The dataset used for word counting is obtained from MIT's [wordlist.10000.txt](./wordlist.10000.txt). To facilitate parallelization, copies of this dataset are created with sizes ranging from *"500,000"* to *"200,000,000"* words.
+The dataset used for word counting is obtained from MIT's [wordlist.10000.txt](https://www.mit.edu/~ecprice/wordlist.10000). To facilitate parallelization, copies of this dataset are created with sizes ranging from *"500,000"* to *"200,000,000"* words.
 
 ## Usage
 ### Prerequisites
