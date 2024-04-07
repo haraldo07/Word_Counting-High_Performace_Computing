@@ -19,10 +19,10 @@ The dataset used for word counting is obtained from MIT's [wordlist.10000.txt](h
 4. Run the executable.
 
 ## Key Features
--- **OpenMP Parallelization**: Utilizes OpenMP directives for multi-threaded parallelism.
--- **Word Counting Algorithm**: Implements a word counting algorithm on text chunks distributed among threads.
--- **Dynamic Chunk Allocation**: Divides the text into chunks for parallel processing, ensuring efficient resource utilization.
--- **Performance Evaluation**: Measures the execution time and total word count, providing insights into the parallelization effectiveness.
+- **OpenMP Parallelization**: Utilizes OpenMP directives for multi-threaded parallelism.
+- **Word Counting Algorithm**: Implements a word counting algorithm on text chunks distributed among threads.
+- **Dynamic Chunk Allocation**: Divides the text into chunks for parallel processing, ensuring efficient resource utilization.
+- **Performance Evaluation**: Measures the execution time and total word count, providing insights into the parallelization effectiveness.
 
 ## Results and Further Details
 For more detailed results and project insights, refer to the [word_count_parallel.cpp](./word_count_parallel.cpp) document uploaded in the project repository.
