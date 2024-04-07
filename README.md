@@ -1,15 +1,28 @@
-# Word Counting using High Performace Computing
-To parallelize the problem of counting the number of words in a text, the [OpenMP](https://en.wikipedia.org/wiki/OpenMP) Application Program Interface
-is used to direct ***multi-threaded, shared memory parallelism***. <br><br>
+# Word Counting using High Performance Computing with OpenMP
 
-The dataset used to count the number of words is taken from *wordlist.10000* created by **Massachusetts Institute of Technology**,
-which can be downloaded by clicking [here](https://www.mit.edu/~ecprice/wordlist.10000) <br><br>
+## Introduction
+This project aims to parallelize the process of counting words in a text file using OpenMP for multi-threaded, shared memory parallelism. It employs a dataset obtained from the Massachusetts Institute of Technology (MIT) containing 10,000 words, which is duplicated to create word lists of various sizes for testing.
 
-The dataset has only 10000 words which is not suitable for parallelization. So the same 10000 words is copied to make a new
-wordlist of sizes ***"500,000", "1,000,000", "5,000,000", "10,000,000" and "200,000,000"***. <br><br>
+## Dataset
+The dataset used for word counting is obtained from [MIT's wordlist.10000](https://www.mit.edu/~ecprice/wordlist.10000). To facilitate parallelization, copies of this dataset are created with sizes ranging from "500,000" to "200,000,000" words.
 
-First, the number of words is counted serially and then the *OpenMP pragma* is used to count the number of words parallely.
-The computing units starts from 1 till 12 which is the maximum number of threads available in the device on which the code is run.
+## Usage
+### Prerequisites
+- OpenMP supported compiler
+- C++ standard library
+- Access to the wordlist dataset
 
-## Refer the results and the project in more detail from this [document](./word_count_parallel.cpp) uploaded
+### Instructions
+1. Clone or download the project repository.
+2. Ensure the wordlist dataset is accessible in the project directory or provide the correct path in the code.
+3. Compile the code using an OpenMP-supported compiler.
+4. Run the executable.
 
+## Key Features
+- **OpenMP Parallelization**: Utilizes OpenMP directives for multi-threaded parallelism.
+- **Word Counting Algorithm**: Implements a word counting algorithm on text chunks distributed among threads.
+- **Dynamic Chunk Allocation**: Divides the text into chunks for parallel processing, ensuring efficient resource utilization.
+- **Performance Evaluation**: Measures the execution time and total word count, providing insights into the parallelization effectiveness.
+
+## Results and Further Details
+For more detailed results and project insights, refer to the [word_count_parallel.cpp](./word_count_parallel.cpp) document uploaded in the project repository.
