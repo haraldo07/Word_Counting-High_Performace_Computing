@@ -1,4 +1,4 @@
-# Word Counting using High Performance Computing with OpenMP
+# Parallel Word Counting using OpenMP
 
 ## Introduction
 This project aims to parallelize the process of counting words in a text file using [OpenMP](https://en.wikipedia.org/wiki/OpenMP) for ***multi-threaded, shared memory parallelism***. It employs a dataset obtained from the **Massachusetts Institute of Technology (MIT)** containing 10,000 words, which is duplicated to create word lists of various sizes for testing.
