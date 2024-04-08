@@ -25,4 +25,4 @@ The dataset used for word counting is obtained from MIT's [wordlist.10000.txt](h
 - **Performance Evaluation**: Includes comprehensive performance evaluation metric such as execution time, enabling thorough assessment of parallelization effectiveness and scalability.
 
 ## Results and Further Details
-For more detailed results and project insights, refer to the [HPC_Project_Report](./HPC_Project_Report.pdf) document uploaded in the project repository.
+For more detailed results and project insights, refer to the [Project Report](./HPC_Project_Report.pdf) uploaded in the project repository.
